@@ -1,0 +1,139 @@
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+img {
+  border-style: none;
+}
+
+.waves-effect, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.alert, .breadcrumb, .card, .card .card-header, .dropdown-menu, .file-custom, .input-group-addon, .jumbotron, .list-group .list-group-item, .modal-content, .nav .nav-link, .nav-tabs, .navbar, .navbar-toggler, .page-item:first-child .page-link, .page-item:last-child .page-link, .pagination-lg .page-item:first-child .page-link, .pagination-lg .page-item:last-child .page-link, .pagination-sm .page-item:first-child .page-link, .pagination-sm .page-item:last-child .page-link, .popover, .tag, .tooltip-inner, img {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#carousel-t {
+  background-color: #fff;
+}
+
+#carousel-t .testimonial-content {
+  margin-top: 15px;
+}
+
+#carousel-t .carousel-control-next, .carousel-control-prev {
+  width: 13%;
+}
+
+#carousel-t .carousel-control-prev {
+  background: -webkit-linear-gradient(left, rgba(255,0,0,0) 70%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right, rgb(255,255,255) 70%,rgba(255,255,255,0) 100%);
+  opacity: 1;
+}
+
+#carousel-t .carousel-control-next {
+  background: -webkit-linear-gradient(right, rgba(255,0,0,0) 70%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to left, rgb(255,255,255) 70%,rgba(255,255,255,0) 100%);
+  opacity: 1;
+}
+
+#carousel-t .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #140000;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .2;
+  transition: opacity .6s ease;
+  border-radius: 50%;
+}
+
+#carousel-t .carousel-indicators .active {
+  opacity: .5;
+}
+
+#carousel-t .carousel-indicators {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#carousel-t .signature {
+  font-size: 24px;
+  font-style: normal;
+  font-family: 'Roboto Condensed', Arial, Sans;
+  font-weight: 700;
+  margin: 0;
+}
+
+#carousel-t .date {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#carousel-t p {
+  font-size: 18px;
+  font-family: 'Roboto Condensed', Arial, Sans;
+}
+
+#carousel-t .rating {
+  background-color: #2d80ff;
+  width: 56px;
+  display: block;
+  margin: 15px auto;
+  color: white;
+  border-radius: 25px;
+}
+
+#carousel-t .icon.ion-android-arrow-dropright-circle {
+  font-size: 40px;
+  color: rgba(0,0,0,0.15);
+  transition: color .3s;
+  height: 100%;
+  width: 100%;
+}
+
+#carousel-t .icon.ion-android-arrow-dropright-circle:hover {
+  color: rgba(0,0,0,0.35);
+  transition: color .3s;
+}
+
+#carousel-t .icon.ion-android-arrow-dropleft-circle {
+  font-size: 40px;
+  color: rgba(0,0,0,0.15);
+  height: 100%;
+  width: 100%;
+}
+
+#carousel-t .icon.ion-android-arrow-dropleft-circle:hover {
+  color: rgba(0,0,0,0.35);
+  transition: color .3s;
+}
+
