@@ -22,3 +22,10 @@ h1 {
   box-sizing: border-box;
 }
 
+.numbers {
+  background: rgb(195,190,212);
+  background: linear-gradient(101deg, rgba(195,190,212,1) 0%, rgba(109,96,150,1) 99%, rgba(107,94,150,1) 100%);
+  color: white;
+}
+
+
